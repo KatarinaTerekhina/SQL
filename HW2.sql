@@ -48,7 +48,8 @@ role_id int not null,
 foreign key (employee_id) references employees (id),
 foreign key (role_id) references roles (id));
 
---Наполнить таблицу employee 70 строками.
+--Наполнить таблицу employee 70 строками
+
 insert into employees (employee_name)
 values ('Kate Terekhina'),('Ann Smith'),('John Snow'),('John Do'),('Sam Bin'), ('Fox F'),('John D'),('Dan Do'),('Jack Sparrow'),'Jane Smith');,('Josh K'),
 ('Bob Back'),('John Do Jr'), ('John Junior'),('Kitty Bis'), ('Jonny D'), ('Noah'),('Liam'),('William'),('Mason'),('James'), 
